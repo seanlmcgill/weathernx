@@ -4,6 +4,5 @@ export interface IWeather {
   highTemperature: number;
   humidity: number;
   windMph: number;
-  description: string;
   date: Date;
 }

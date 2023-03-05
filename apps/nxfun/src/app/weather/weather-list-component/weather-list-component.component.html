@@ -1,5 +1,5 @@
-<div class="h-100 p-5 text-white bg-dark rounded-3">
-  <div *ngFor="let weather of weatherList">
-    <weather-day-bar></weather-day-bar>
+<div class="h-100 p-5 bg-dark rounded-3">
+  <div class="weather-listing" *ngFor="let weather of weatherList">
+    <weather-day-bar [weather]="weather"></weather-day-bar>
   </div>
 </div>
